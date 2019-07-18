@@ -1,7 +1,4 @@
-                                                                            SIT708
-                                                                        Mobile System Development
                                                                       Name: Ajay Prabhu Veerapandian
-                                                                       SID: SID218379094
                                                                   App Name: Eidetic Memory
 
 Overview:
