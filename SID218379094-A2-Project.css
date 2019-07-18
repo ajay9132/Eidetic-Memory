@@ -1,0 +1,633 @@
+body.bodyStyle {
+  border: 10px;
+  border-color: #b36119;
+  border-style: groove;
+  border-radius: 25px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: #efbc8f;
+}
+
+.headingStyle {
+  font-size: 50px;
+  text-align: center;
+  color: #b36119;
+  font-family: 'Comic Sans MS';
+  text-shadow: 2px 2px 2px black;
+  animation-name: pageload;
+  animation-duration: 0.5s;
+}
+
+.buttonStyle {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 74px;
+  height: 74px;
+  border-style: solid;
+  border-width: 37px 0px 37px 74px;
+  border-color: #efbc8f #efbc8f #efbc8f #b36119;
+  box-sizing: border-box;
+  animation-name: pageload;
+  animation-duration: 1s;
+}
+
+.frontPageImage{
+  animation-name: pageload;
+  animation-duration: 2s;
+}
+
+
+
+
+.difficultyLevel {
+  border-style: solid;
+  border-radius: 20px;
+  border-color: #b36119;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 60px;
+}
+
+div.question {
+  margin-top: 32px;
+  font-size: 24px;
+  margin-left: 16px;
+  margin-right: 16px;
+  text-align: justify;
+  border: 3px solid black;
+  border-radius: 16px;
+  padding: 16px;
+  text-shadow: 2px 2px 2px black;
+}
+
+.btnSpacing {
+  display: inline-block !important;
+  padding: 40px;
+  margin: 40px;
+  display: flex;
+  float: right;
+}
+
+/*
+* ====Styling for images loaded after clicking play start ===
+*/
+.leftLocation {
+  margin-left: 32px;
+  margin-top: 32px;
+  display: inline-block;
+  vertical-align: top;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  animation-name: pageload;
+  animation-duration: 1s;
+}
+
+.rightLocation {
+  margin: 32px;
+  display: inline-block;
+  vertical-align: top;
+  float: right;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  animation-name: pageload;
+  animation-duration: 1s;
+}
+
+@keyframes pageload {
+  0% {
+    position: relative;
+    top: 1%;
+    display: none;
+    opacity: 0;
+  }
+
+  100% {
+     top: 0%;
+     opacity: 1;
+  }
+}
+
+.leftImages {
+  border-radius: 32px;
+  display: block;
+  height: 360px;
+  width: 255px;
+  padding: 32px;
+  margin: 16px;
+  border: 10px groove #b36119;
+  border-radius: 16px;
+  animation-name: pageload;
+  animation-duration: 1s;
+}
+
+.rightImages {
+  display: block;
+  height: 360px;
+  width: 255px;
+  padding: 32px;
+  margin: 16px;
+  border: 10px groove #b36119;
+  border-radius: 16px;
+  animation-name: pageload;
+  animation-duration: 1s;
+}
+
+IMG {
+  height: 320px;
+  width: 240px;
+  display: block;
+}
+
+H3 {
+  text-align: center;
+  color: #b36119;
+  font-family: 'Comic Sans MS';
+  font-size: 25px;
+  text-shadow: 2px 2px 2px black;
+}
+
+/*
+* ==== End ===
+*/
+.unOrderedList {
+  color: #b36119;
+  font-family: 'Comic Sans MS';
+  font-size: 25px;
+  border: 3px solid #b36119;
+  border-radius: 16px;
+  margin-right: 60px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-shadow: 1px 1px 1px black;
+  animation-name: pageload;
+  animation-duration: 1s;
+}
+
+button {
+  color: #b36119;
+  font-family: 'Comic Sans MS';
+  border: 3px solid #b36119;
+  border-radius: 16px;
+  margin-right: 60px;
+  margin-left: auto;
+  display: block;
+  margin-top: 15px;
+  ;
+  margin-bottom: 15px;
+  background-color: #efbc8f;
+  font-size: 20px;
+  width: 321px;
+  height: 72px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-shadow: 1px 1px 1px black;
+  animation-name: pageload;
+  animation-duration: 1s;
+}
+
+#avalonAirport.rightImages:hover{
+    color: white;
+    background-color: #b36119;
+}
+
+#morningtonPeninsula.leftImages:hover{
+    color: white;
+    background-color: #b36119;
+}
+
+#PhilipIsland.rightImages:hover{
+    color: white;
+    background-color: #b36119;
+}
+
+#StKildaBeach.leftImages:hover{
+    color: white;
+    background-color: #b36119;
+}
+
+#tullamarineAirport.leftImages:hover{
+    color: white;
+    background-color: #b36119;
+}
+
+#twelveApostles.rightImages:hover{
+    color: white;
+    background-color: #b36119;
+}
+
+button:hover{
+  color: white;
+  background-color: #b36119;
+}
+
+.difficultyLevel:hover{
+  color: white;
+  background-color: #b36119;
+}
+.rectangleright {
+  height: 100px;
+  width: 45px;
+  background-color: #555;
+  margin-top: 0px;
+  margin-left: 20px;
+  text-align: center;
+  line-height: 70px;
+}
+
+.triangle-up {
+  width: 0;
+  height: 0;
+  border-left: 40px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 40px solid #555;
+  margin-top: 50px;
+}
+
+.rectangleright {
+  height: 40px;
+  width: 100px;
+  background-color: #555;
+  margin-top: 15px;
+  text-align: center;
+  line-height: 35px;
+}
+
+.triangle-right {
+  width: 0;
+  height: 0;
+  border-top: 40px solid transparent;
+  border-left: 50px solid #555;
+  border-bottom: 40px solid transparent;
+}
+
+.column {
+  float: left;
+  width: 0%;
+  padding: 50px;
+}
+
+.row::after {
+  display: table;
+}
+
+.controlsContainer {
+  display: inline-flex;
+  border: 3px solid;
+  border-style: solid;
+  border-radius: 20px;
+  border-color: #b36119;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 60px;
+  animation-name: pageload;
+  animation-duration: 1s;
+}
+
+canvas {
+  border: 3px solid #b36119;
+  border-radius: 24px;
+  padding-bottom: 24px;
+  margin-bottom: 24px;
+  margin-right: 10px;
+  width: 93%;
+  animation-name: pageload;
+  animation-duration: 1.5s;
+}
+
+.stars{
+
+  display: inline-flex;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 40px;
+  animation-name: pageload;
+  animation-duration: 1s;
+}
+.star
+{
+
+  width: 20%;
+  height: 70%;
+  animation-name: pageload;
+  animation-duration: 1s;
+}
+
+
+body.gameOver{
+
+  animation-name: over;
+  animation-duration: 3s;
+
+}
+
+@keyframes over {
+  0% {
+   background-color: #efbc8f;
+   font-size: 0px;
+  }
+
+  60% {
+  background-color: red;
+  }
+
+  100%{
+     background-color: #efbc8f;
+     font-size: 50px;
+  }
+}
+
+.gameOverHeading{
+  animation-name: over;
+  animation-duration: 3s;
+  font-size: 50px;
+  text-align: center;
+  color: #b36119;
+  font-family: 'Comic Sans MS';
+  text-shadow: 2px 2px 2px black;
+}
+
+
+.difficultyLevel{
+  animation-name: level;
+  animation-duration: 2s;
+}
+@keyframes level {
+  0% {
+    position: relative;
+    right: 10%;
+    display: none;
+    opacity: 0;
+  }
+
+  100% {
+     right: 0%;
+     opacity: 1;
+  }
+}
+
+.wrongAnswer{
+  animation-name: wrongAnswer;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: 1;
+}
+
+@keyframes wrongAnswer {
+    0%{
+      background-color: white;
+      /* font-size: 18px; */
+    }
+    50%{
+      background-color: red;
+      font-size: 18px;
+    }
+    100%{
+      background-color: white;
+      /* font-size: 18px; */
+    }
+}
+
+
+@media screen and (max-width: 770px) {
+
+  body.bodyStyle {
+    padding-left: 0px;
+    padding-right: 0px;
+
+
+  }
+
+  .headingStyle {
+    font-size: 25px;
+
+  }
+
+  .buttonStyle {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 10px;
+    height: 10px;
+    border-style: solid;
+    border-width: 19px 0px 19px 37px;
+    border-color: #efbc8f #efbc8f #efbc8f #b36119;
+    box-sizing: border-box;
+  }
+
+  .difficultyLevel {
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #b36119;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 60px;
+  }
+
+
+  div.question {
+    margin-top: 32px;
+    font-size: 24px;
+    margin-left: 16px;
+    margin-right: 16px;
+    text-align: justify;
+    border: 3px solid black;
+    border-radius: 16px;
+    padding: 16px;
+    text-shadow: 2px 2px 2px black;
+  }
+
+  .btnSpacing {
+    display: inline-block !important;
+    padding: 40px;
+    margin: 40px;
+    display: flex;
+    float: right;
+  }
+
+  /*
+  * ====Styling for images loaded after clicking play start ===
+  */
+  .leftLocation {
+
+    margin-top: 16px;
+    display: inline-block;
+    vertical-align: top;
+    cursor: pointer;
+    transition-duration: 0.4s;
+  }
+
+  .rightLocation {
+    margin-top: 16px;
+    display: inline-block;
+    vertical-align: top;
+    float: right;
+    cursor: pointer;
+    transition-duration: 0.4s;
+  }
+
+  .leftImages {
+    border-radius: 32px;
+    display: block;
+    height: 120px;
+    width: 70px;
+    padding: 8px;
+    margin: 4px;
+    border: 3px solid #b36119;
+    border-radius: 16px;
+  }
+
+  .rightImages {
+    display: block;
+    height: 120px;
+    width: 70px;
+    padding: 8px;
+    margin: 4px;
+    border: 3px solid #b36119;
+    border-radius: 16px;
+  }
+
+  IMG {
+    height: 80px;
+    width:60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  H3 {
+
+    font-size: 12.5px;
+
+  }
+
+  .unOrderedList {
+
+    font-size: 12.5px;
+    margin: 10px;
+    text-shadow: 1px 1px 1px black;
+  }
+
+  button {
+    color: #b36119;
+    font-family: 'Comic Sans MS';
+    border: 3px solid #b36119;
+    border-radius: 16px;
+    margin-right: 30px;
+    margin-left: auto;
+    display: block;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    background-color: #efbc8f;
+    font-size: 10px;
+    width: 148px;
+    height: 36px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-shadow: 1px 1px 1px black;
+  }
+
+  .difficultyLevel {
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #b36119;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .controlsContainer {
+    display: inline-flex;
+    border: 3px solid;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #b36119;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  canvas {
+
+    border: 3px solid #b36119;
+    border-radius: 24px;
+    margin: 12px;
+    padding-bottom: 6px;
+    width: 93%;
+  }
+
+  .stars{
+
+    display: inline-flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+  }
+  .star
+  {
+
+    width: 20%;
+    height: 70%;
+  }
+
+  body.gameOver{
+
+    animation-name: over;
+    animation-duration: 3s;
+
+
+  }
+
+  @keyframes over {
+    0% {
+     background-color: #efbc8f;
+     font-size: 0px;
+    }
+
+    60% {
+    background-color: red;
+    }
+
+    100%{
+       background-color: #efbc8f;
+       font-size: 25px;
+    }
+  }
+
+  .gameOverHeading{
+    animation-name: over;
+    animation-duration: 3s;
+    font-size: 25px;
+    text-align: center;
+    color: #b36119;
+    font-family: 'Comic Sans MS';
+    text-shadow: 2px 2px 2px black;
+
+  }
+
+  .wrongAnswer{
+    animation-name: wrongAnswer;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 1;
+  }
+
+  @keyframes wrongAnswer {
+      0%{
+        background-color: white;
+        /* font-size: 18px; */
+      }
+      50%{
+        background-color: red;
+        font-size: 18px;
+      }
+      100%{
+        background-color: white;
+        /* font-size: 18px; */
+      }
+  }
+
+
+
+}
+
+.frontPageImage{
+  margin-left: 20%;
+}
